@@ -10,15 +10,10 @@ Make sure you have the following installed on your machine:
 
 ## Installation
 
-1. **Extract the zip folder** that contains the project files.
-
-2. **Navigate to the project directory**:
-   ```bash
-   cd angular-demo
-3. **Install the project dependencies**:
+1. **Install the project dependencies**:
    ```bash
    yarn install
-4. **To run the application locally, use the following command**:
+2. **To run the application locally, use the following command**:
    ```bash
    yarn start
 
