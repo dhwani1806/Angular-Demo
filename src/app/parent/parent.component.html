@@ -1,0 +1,16 @@
+<div class="parent">
+    <h2 class="parent__title">Parent Component (Default Change Detection)</h2>
+  
+    <button class="parent__button" (click)="updatePrimitive()">Update Primitive Data</button>
+    <button class="parent__button" (click)="mutateNonPrimitive()">Mutate Non-Primitive Data</button>
+    <button class="parent__button" (click)="updateNonPrimitive()">Update Non-Primitive Data (New Reference)</button>
+    <button class="parent__button" (click)="updateServiceState()">Update Service State</button>
+  
+    <p class="parent__data">Primitive Data: {{ primitiveData }}</p>
+    <p class="parent__data">Non-Primitive Data: {{ nonPrimitiveData.value }}</p>
+  
+    <!-- Child component -->
+    <app-child 
+        [parentPrimitive]="primitiveData" 
+        [parentNonPrimitive]="nonPrimitiveData" ></app-child>
+</div>

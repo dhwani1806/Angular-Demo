@@ -1,0 +1,10 @@
+<div class="child">
+    <h3 class="child__title">Child Component (OnPush Change Detection)</h3>
+  
+    <p class="child__data">Primitive Data from Parent: {{ parentPrimitive }}</p>
+    <p class="child__data">Non-Primitive Data from Parent: {{ parentNonPrimitive.value }}</p>
+  
+    <button class="child__button" (click)="updateLocalState()">Update Local Non-Primitive Data</button>
+  
+    <div class="child__service-data">Service Data: {{ serviceData$ | async }}</div>
+</div>
