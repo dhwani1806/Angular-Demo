@@ -1,4 +1,4 @@
-# Angular Demo Task
+# Angular Demo
 
 This project demonstrates the use of change detection strategies and hierarchical dependency injection in Angular.
 
@@ -14,7 +14,7 @@ Make sure you have the following installed on your machine:
 
 2. **Navigate to the project directory**:
    ```bash
-   cd angular-demo-task
+   cd angular-demo
 3. **Install the project dependencies**:
    ```bash
    yarn install
